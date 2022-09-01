@@ -1,0 +1,71 @@
+
+
+/* Smart Phones And Tablets */
+
+@media(max-width: 768px) {
+    
+    .navbar-inverse .navbar-nav > li > a
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .subscribe .form-control
+    {
+        margin: 20px auto;
+        width: 400px;
+
+    }
+
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height: none;
+
+    }
+
+
+}
+
+/* Small Screen */
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/* Medium  Screen */
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+  
+
+}
+
+/* Large  Screen */
+@media(min-width: 1200px) {
+
+   
+
+}
+
+
+/*  Media Query
+--- مقاس المبيال والتبلت يبدا من 0 الا 768
+    @media(max-width: 768px) 
+
+--- مقاس الشاشات الصغيرة يبدا من 768 الا 991
+    @media(min-width: 768px) and (max-width: 991px)
+
+--- تبدا من 992 الا 1199 Mediam مقاس الشاشات المتوسطة 
+    @media(min-width: 992px) and (max-width: 1199px)
+
+--- مقاس الشاشات الكبيرة تبدا من 1200 ونت طالع 
+    @media(min-width: 1200px)
+
+
+--- min-width: 768px :    معنتة يبدا من 768  ونت طالع يعني من اول ماتعدي علا الموبيل والتبلت ونت طالع نفذا لي شي معسن 
+
+
+*/
